@@ -14,6 +14,7 @@ if "RENDER" in os.environ:
     from data import load_data
     from callbacks import register_callbacks
     from components import create_map
+    from components import create_port_table,create_summary_card,create_trend_graph,create_footer
     from calculate_arrivals_departures import calculate_arrivals_departures
 else:
     from data import load_data
