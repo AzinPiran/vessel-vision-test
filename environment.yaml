@@ -1,0 +1,26 @@
+name: vessel-vision
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - ipykernel=6.25.0
+  - ipython=7.31.1
+  - jupyterlab=3.6.3
+  - backcall=0.2.0
+  - numpy=1.23.5
+  - pytz=2023.3
+  - pandas=1.5.3
+  - altair=5.0.1
+  - dash=2.9.3
+  - dash-bootstrap-components=1.4.1
+  - plotly=5.15.0
+  - tabulate=0.9.0
+  - lxml=4.9.2
+  - glob2=0.7
+  - pip=23.2
+  - pyarrow-19.0.1
+  - pip:
+      - dash-vega-components==0.7.0
+      - gdown==4.7.1
+      - zipfile36==0.1.3
